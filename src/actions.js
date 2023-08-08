@@ -12,10 +12,10 @@
 //     }
 //   };
 // };
-export const addStudent = (name, age, country) => {
+export const addStudent = (name, age, country, province) => {
     return {
       type: 'ADD_STUDENT',
-      payload: { name, age, country },
+      payload: { name, age, country, province },
     };
   };
   
